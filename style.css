@@ -100,6 +100,7 @@ section {
 
 .info .cards {
   display: flex;
+  gap: 3em;
 }
 
 .info .card {
@@ -110,6 +111,10 @@ section {
   text-align: center;
   color: #5C6571;
   gap: 0.5em;
+}
+
+.info .description {
+  max-width: 150px; /* The width of the box */
 }
 
 .info .box {
