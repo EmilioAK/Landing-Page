@@ -4,11 +4,20 @@ body {
 }
 
 section {
-  padding: 0 13em;
+  padding: 0 13vw;
 }
 
-ul {
+.header-section ul {
   list-style-type: none;
+}
+
+.header-section a {
+  text-decoration: none;
+  color: #B9BDC3;
+}
+
+.header-section a:hover {
+  text-decoration: underline;
 }
 
 .header-section {
@@ -30,16 +39,13 @@ ul {
   font-weight: bolder;
 }
 
-.header-section ul {
-  color: #B9BDC3;
-}
-
 .hero {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #1F2937;
-  padding: 7em 13em;
+  padding-top: 18vh;
+  padding-bottom: 18vh;
   gap: 2em;
 }
 
@@ -148,7 +154,8 @@ ul {
   display: flex;
   align-content: center;
   justify-content: center;
-  padding: 10vh 13em;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 
 .sign-up .bar {
@@ -185,6 +192,7 @@ ul {
 }
 
 footer {
+  margin-top: auto;
   background-color: #1F2937;
   color: #D4D7D9;
   min-height: 10vh;
