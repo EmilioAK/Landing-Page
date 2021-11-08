@@ -7,19 +7,6 @@ section {
   padding: 0 13vw;
 }
 
-.header-section ul {
-  list-style-type: none;
-}
-
-.header-section a {
-  text-decoration: none;
-  color: #B9BDC3;
-}
-
-.header-section a:hover {
-  text-decoration: underline;
-}
-
 .header-section {
   display: flex;
   justify-content: space-between;
@@ -29,8 +16,18 @@ section {
 }
 
 .header-section ul {
+  list-style-type: none;
   display: flex;
   gap: 1em;
+}
+
+.header-section a {
+  text-decoration: none;
+  color: #B9BDC3;
+}
+
+.header-section a:hover {
+  text-decoration: underline;
 }
 
 .header-section .logo {
